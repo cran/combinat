@@ -26,5 +26,11 @@ rmultz2(n, p, draws=length(n))
 }
 \references{ ~put references to the literature/web site here ~ }
 \author{ John Wallace, 17 Feb 1997 S-news , mods by Chasalow }
+\examples{
+ n <- c(100,20,10)
+ p <- matrix(c(.3,.1,.5,.1,.1,.2,.6,.8,.3),3)
+ rmultinomial(n,p)
+}
+
 \keyword{ models }
 

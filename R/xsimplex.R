@@ -1,5 +1,5 @@
 "xsimplex"<-
-function(p, n, fun = NULL, simplify = T, ...)
+function(p, n, fun = NULL, simplify = TRUE, ...)
 {
 #       DATE WRITTEN: 11 February 1992          LAST REVISED:  10 July 1995
 #       AUTHOR:  Scott Chasalow

@@ -9,7 +9,7 @@ function(n, p, draws = length(n))
 #
 	n <- rep(n, length = draws)
 	lenp <- length(p)
-	tab <- tabulate(sample(lenp, sum(n), T, p) + lenp * rep(1:draws - 1, n),
+	tab <- tabulate(sample(lenp, sum(n), TRUE, p) + lenp * rep(1:draws - 1, n),
 		nbins = draws * lenp)
 	dim(tab) <- c(lenp, draws)
 	tab

@@ -11,7 +11,7 @@
              a list; else returns a vector or an array.  "..." are passed
              unchanged to function given by argument fun,  if any. }
 \usage{
-xsimplex(p, n, fun=NULL, simplify=T, ...)
+xsimplex(p, n, fun=NULL, simplify=TRUE, ...)
 }
 %- maybe also `usage' for other objects documented here.
 \arguments{

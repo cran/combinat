@@ -1,5 +1,5 @@
 "combn"<-
-function(x, m, fun = NULL, simplify = T, ...)
+function(x, m, fun = NULL, simplify = TRUE, ...)
 {
 #       DATE WRITTEN: 14 April 1994          LAST REVISED:  10 July 1995
 #       AUTHOR:  Scott Chasalow

@@ -31,7 +31,7 @@ integer values should be returned.
 
 }
 \usage{
-combn(x, m, fun=NULL, simplify=T, ...)
+combn(x, m, fun=NULL, simplify=TRUE, ...)
 }
 %- maybe also `usage' for other objects documented here.
 \arguments{
