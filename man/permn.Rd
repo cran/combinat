@@ -28,9 +28,6 @@ results of applying fun to a permutation
 Reingold, E.M., Nievergelt, J., Deo, N. (1977) Combinatorial
 Algorithms: Theory and Practice. NJ: Prentice-Hall. pg. 170.
 }
-
- ~Make other sections like WARNING with \section{WARNING }{....} ~
-
 \seealso{ 
 sample, fact, combn, hcube, xsimplex
 }
