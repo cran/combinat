@@ -12,10 +12,10 @@ function(x, n)
 #         Exactly one of arguments "x" and "n" should be given.
 #
 	if(!missing(x)) {
-		n <- length(x)
 		if(!missing(n))
 			warning(paste("Only one of arguments x and n allowed;", 
 				"argument n was ignored"))
+		n <- length(x)
 	}
 	else if(missing(n))
 		stop("Arguments \"x\" and \"n\" both missing")
