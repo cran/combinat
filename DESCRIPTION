@@ -1,10 +1,10 @@
 Package: combinat
-Version: 0.0-6
-Date: 2005-08-04
+Version: 0.0-7
 Title: combinatorics utilities
 Author: Scott Chasalow
-Depends: R
 Maintainer: Vince Carey <stvjc@channing.harvard.edu>
 Description: routines for combinatorics
-License: GPL2
-Packaged: Thu Aug  4 15:11:29 2005; stvjc
+License: GPL-2
+Packaged: 2009-10-10 03:58:58 UTC; stvjc
+Repository: CRAN
+Date/Publication: 2009-10-11 14:38:40
