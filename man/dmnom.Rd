@@ -19,10 +19,10 @@ dmnom(x, size=sum(x), prob=stop("no prob arg"))
   \item{size}{ total }
   \item{prob}{ parameter vector (sums to 1) }
 }
-\details{
-}
-\value{
-}
+%\details{
+%}
+%\value{
+%}
 \author{ code by Scott Chasalow, R pack and maint by VJ Carey <stvjc@channing.harvard.edu>}
 \examples{
  dmnom(c(1,1,4,4),10,c(.2,.2,.3,.3))

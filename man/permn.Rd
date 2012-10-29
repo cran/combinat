@@ -18,8 +18,8 @@ permn(x, fun=NULL, ...)
   \item{fun}{ if non.null, applied at each perm }
   \item{\dots}{ args passed to fun }
 }
-\details{
-}
+%\details{
+%}
 \value{
 list: each component is either a permutation, or the
 results of applying fun to a permutation

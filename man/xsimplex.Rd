@@ -15,18 +15,19 @@ xsimplex(p, n, fun=NULL, simplify=TRUE, ...)
 }
 %- maybe also `usage' for other objects documented here.
 \arguments{
-  \item{p}{ }
-  \item{n}{ }
-  \item{fun}{ }
-  \item{simplify}{ }
-  \item{\dots}{  }
+  \item{p}{ first parameter of lattice description }
+  \item{n}{  second parameter of lattice description}
+  \item{fun}{ function to be applied pointwise }
+  \item{simplify}{ logical: if FALSE, value is a list, otherwise a vector or
+ array}
+  \item{\dots}{ parameters to be passed to \code{fun} }
 }
-\details{
-}
-\value{
-}
-\references{ }
-
+%\details{
+%}
+%\value{
+%}
+%\references{ }
+%
 \examples{
 #Compute Multinomial(n = 4, pi = rep(1/3, 3)) p.f.:
    xsimplex(3, 4, dmnom, prob=1/3)

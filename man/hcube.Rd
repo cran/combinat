@@ -27,8 +27,8 @@ hcube(x, scale, translation)
          translation = -1.  Scaling,  if any,  is done BEFORE translation.
  }
 }
-\details{
-}
+%\details{
+%}
 \value{
          A prod(x) by length(x) numeric matrix;  element (i,j) gives the
          location of point i in the jth dimension.  The first column
@@ -41,8 +41,8 @@ hcube(x, scale, translation)
 \seealso{ 
 fac.design, expand.grid }
 
-\examples{
-}
+%\examples{
+%}
 %\\keyword{ combinatorics }% at least one, from doc/KEYWORDS
 \keyword{ models }% __ONLY ONE__ keyword per line
 

@@ -19,8 +19,8 @@ nsimplex(p, n)
   \item{p}{ vector of integers }
   \item{n}{ vector of integers }
 }
-\details{
-}
+%\details{
+%}
 \value{
 integer
 }

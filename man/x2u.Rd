@@ -21,8 +21,8 @@ A vector.  Interpreted as the bin labels;  default value is
         would have been obtained if the default value of labels were used.
  }
 }
-\details{
-}
+%\details{
+%}
 \value{
         rep(labels, x), a vector of length sum(x).  If labels = seq(along = x)
         (the default),  value is the u-encoded translation of the simplex
@@ -32,11 +32,11 @@ A vector.  Interpreted as the bin labels;  default value is
         for the objects represented by the counts in x (equivalent to
         labels[x2u(x)]).
 }
-\references{ }
+%\references{ }
 
 \seealso{ tabulate, rep }
 
-\examples{
-}
+%\examples{
+%}
 \keyword{ models }
 

@@ -17,14 +17,15 @@ rmultz2(n, p, draws=length(n))
 \arguments{
   \item{n}{ vector of sizes }
   \item{p}{ vector or probs }
+  \item{rows}{ numeric giving desired number rows to be output }
   \item{draws}{ number samples required }
-  \item{rows}{  }
 }
-\details{
-}
+%\details{
+%}
 \value{
+a matrix of \code{rows} rows delivering specified samples
 }
-\references{ ~put references to the literature/web site here ~ }
+%\references{ ~put references to the literature/web site here ~ }
 \author{ John Wallace, 17 Feb 1997 S-news , mods by Chasalow }
 \examples{
  n <- c(100,20,10)
